@@ -16,7 +16,7 @@ nltk.data.path.append(os.path.join(os.getcwd(), 'nltk_data'))
 nltk.data.path.append('/Users/amadoudiakhadiop/Documents/chatbot/nltk_data')
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
-
+nltk.download('stopwords')
 
 # Define a function to preprocess each sentence
 def preprocess(sentence):
