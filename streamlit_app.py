@@ -9,6 +9,9 @@ import streamlit as st
 from concurrent.futures import ThreadPoolExecutor
 
 
+# Set NLTK data path dynamically based on the current working directory
+nltk.data.path.append(os.path.join(os.getcwd(), 'nltk_data'))
+
 # Set NLTK data path
 nltk.data.path.append('/Users/amadoudiakhadiop/Documents/chatbot/nltk_data')
 nltk.download('punkt')
