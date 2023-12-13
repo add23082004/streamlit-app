@@ -51,7 +51,7 @@ def load_html_files(folder_path):
 
 
 # Load the text from HTML files and preprocess the data
-corpus = load_html_files('/Users/amadoudiakhadiop/Documents/chatbot/untitled folder')
+corpus = load_html_files('untitled folder')
 # Transform the corpus into a set of unique words for each sentence
 unique_word_sets = [set(sentence) for sentence in corpus]
 print("DONE")
